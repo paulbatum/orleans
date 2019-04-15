@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2027
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdventureGrainInterfaces", "AdventureGrainInterfaces\AdventureGrainInterfaces.csproj", "{982F8517-3A69-4D2C-BAEE-325F88543CC6}"
 EndProject
@@ -10,6 +10,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdventureSetup", "AdventureSetup\AdventureSetup.csproj", "{B2766B42-9FF5-46A4-B5AA-ED32A3D88990}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdventureClient", "AdventureClient\AdventureClient.csproj", "{20932297-7E65-458A-BC6A-67D0C98E5B89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventureFunctionApp", "AdventureFunctionApp\AdventureFunctionApp.csproj", "{6A5D2CF8-2402-4239-AAED-5F593AB2E9AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansExtension", "OrleansExtension\OrleansExtension.csproj", "{8B2F8B7E-EF96-4CD5-9F8F-199EE11EBC13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{20932297-7E65-458A-BC6A-67D0C98E5B89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20932297-7E65-458A-BC6A-67D0C98E5B89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20932297-7E65-458A-BC6A-67D0C98E5B89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A5D2CF8-2402-4239-AAED-5F593AB2E9AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A5D2CF8-2402-4239-AAED-5F593AB2E9AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A5D2CF8-2402-4239-AAED-5F593AB2E9AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A5D2CF8-2402-4239-AAED-5F593AB2E9AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B2F8B7E-EF96-4CD5-9F8F-199EE11EBC13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B2F8B7E-EF96-4CD5-9F8F-199EE11EBC13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B2F8B7E-EF96-4CD5-9F8F-199EE11EBC13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B2F8B7E-EF96-4CD5-9F8F-199EE11EBC13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
