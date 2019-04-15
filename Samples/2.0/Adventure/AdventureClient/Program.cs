@@ -1,10 +1,11 @@
-﻿using AdventureGrainInterfaces;
+using AdventureGrainInterfaces;
 using Orleans;
 using System;
 using System.Net;
 using Orleans.Runtime;
 using Microsoft.Extensions.Logging;
 using Orleans.Configuration;
+using System.Threading;
 
 namespace AdventureClient
 {
@@ -12,6 +13,8 @@ namespace AdventureClient
     {
         static void Main(string[] args)
         {
+            Thread.Sleep(TimeSpan.FromSeconds(5));
+
             var client = new ClientBuilder()
                 .UseLocalhostClustering()
                 .Configure<ClusterOptions>(options =>

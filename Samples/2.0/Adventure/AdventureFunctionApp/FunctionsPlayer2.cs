@@ -45,12 +45,4 @@ namespace AdventureFunctionApp
             log.LogInformation(output);            
         }
     }
-
-    public class FunctionsRoomObserver : IRoomObserver
-    {
-        public void RecieveRoomUpdate(string roomUpdate)
-        {
-            throw new NotImplementedException();
-        }
-    }
 }
